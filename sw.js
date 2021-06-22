@@ -1,6 +1,10 @@
-self.addEventListener('notificationclick', function(event) {
+self.addEventListener('push', function(event) {
+  console.log('[Service Worker] Push Received.');
+  console.log(`[Service Worker] Push had this data: "${event.data.text()}"`);
 
-  // here data you access from event using event.notification.data
-   console.log('On notification click: ', event.notification.tag);
- 
- });
+  const title = 'Push Codelab';
+  const options = {
+      body: 'Yay it works.'
+  };
+  event.waitUntil(self.registration.showNotification(title, options));
+});
