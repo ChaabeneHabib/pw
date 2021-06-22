@@ -2,9 +2,9 @@ self.addEventListener('push', function(event) {
   console.log('[Service Worker] Push Received.');
   console.log(`[Service Worker] Push had this data: "${event.data.text()}"`);
 
-  const title = 'Push Codelab';
+  const title = 'Notification Support';
   const options = {
-      body: 'Yay it works.'
+      body: 'erreur x résolu'
   };
   event.waitUntil(self.registration.showNotification(title, options));
 });

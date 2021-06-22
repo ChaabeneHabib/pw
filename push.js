@@ -7,11 +7,11 @@ let vapikeys = {
 push.setVapidDetails('mailto:habib.chaabene@esprit.tn', vapikeys.publicKey, vapikeys.privateKey)
 
 let sub = {
-   "endpoint": "https://fcm.googleapis.com/fcm/send/czTX3vHXsyg:APA91bEmd1-XT3i_kyF7m4OedtRwhzVd4KY-9CFi-OCn321ZxgMZPvtbfvnenfUrWo-HlUDnR2ZJ8hP8ZlMzeJoKpLeQeDiJi16pyPEMEJQwbC2jalewYgIt3U1Fh5Aw9BKB5oTGWem7",
+   "endpoint": "https://fcm.googleapis.com/fcm/send/dTxZQYkfp6I:APA91bGgIyU1faWEyh4xy3hkdcTdXypjYkdmrzx98_qQ7txbBSAAnb76nq7-RCkBCb8aPMjts2ZRuaXg2D6TMiBremHUDLp3WM5IaMckbrsWx7cC1kgkZF8QJFj0154XJv2BRlb_y8_Y",
    "expirationTime": null,
    "keys": {
-      "p256dh": "BFYIRAD8RWkPyEhHdg5gx72vm4x91K9z4tPPrpjCjsQ46MKN5Uy4yFHKUBF1NpIg18VXr-fKpA-tGkK9uHVEdGo",
-      "auth": "y56vPupjI9dpO9sGO2NpaA"
+      "p256dh": "BMJ1UuBFj_bvZvXliR1Hyr1IL0X3_FoXbBeISNERudk8Ke14VE-sP8_M-b3BDtx3c0mmC1N_poNdwFi9lHEhf-4",
+      "auth": "D4foA2pqbeWvi5DYqEOb7Q"
    }
 }
 
