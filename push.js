@@ -6,6 +6,14 @@ let vapikeys = {
 }
 push.setVapidDetails('mailto:habib.chaabene@esprit.tn', vapikeys.publicKey, vapikeys.privateKey)
 
-let sub = {"endpoint":"https://fcm.googleapis.com/fcm/send/eqtqLPwZGhY:APA91bFzTqIdeMxrYPQ970NllnLWTXYT5gh8LZ5h7uIJmIireYpCsYMyalAQJGISEShadMWK1k41AevUqNcxK0DLx8g39x-XKwl7z0AuVlPxPW5DWxmirNP6_P0S4EfMWRvi8UOSWfQ3","expirationTime":null,"keys":{"p256dh":"BLuTUuhv_HYuVV3JhSxcVv1gTBWN5ZIv-qw2XoYoH0EC7iOaeh34LNEGO7YydVqIagFj-zXznAyaWveoEyoQPKM","auth":"ndpFqIWYtHP-5Z_IEj_Qvw"}}
+let sub = {
+   "endpoint": "https://fcm.googleapis.com/fcm/send/dP58tTrCuZM:APA91bFYFnqlBb8T8GlnhSodQOqq8Dm-WySeJ3cTUw5qwRFBQq4Nxg7XIAsnr44s1juisOjJIuATyh02qXIBIrWL-gMz3fiFLTkHuXm5Cz1wewMKLuGStKIB51QixKtO9jfqZlIy-4gP",
+   "expirationTime": null,
+   "keys": {
+      "p256dh": "BIJAfxwj2GNSzfjhA-jR2thTo84HyRImEdCQyhpczhafDLQNq2ldeHvhk-sbDSYYKmArtrUvJQdO8ixqVv6Txks",
+      "auth": "O3G66UxSX_dPIdJCc-U-_w"
+   }
+}
+
 
 push.sendNotification(sub, 'test message');
